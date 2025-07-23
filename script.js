@@ -10,7 +10,7 @@ const noTexts = [
   "？那你还想找谁", 
   "你要找夜阑珊里的哪个姐姐妹妹？",
   "他们难道比我好吗？",
-  "哼...随便你",
+  "...随便你",
   "不允许"
 ];
 
@@ -47,7 +47,7 @@ noButton.addEventListener('click', () => {
 yesButton.addEventListener("click",function(){
     document.body.innerHTML=`
 	<div class="yes-screen">
-		<h1 class="yes-text"> 我可是你的正头娘子 </h1>
+		<h1 class="yes-text"> 哼，我可是你的正头娘子 </h1>
 		<img src="images/hug.png" alt="拥抱" class="yes-image">
 	</div>
     `;
